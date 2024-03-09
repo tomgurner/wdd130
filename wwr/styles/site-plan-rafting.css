@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body {
+    font-family: 'Bralow Condensed', sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #61A0AF;
+    --secondary-color: #96C9DC;
+    --accent1-color: #F06C9B;
+    --accent2-color: #F5D491;
+
+    --heading-font: 'Barlow Condensed', sans-serif;
+    --paragraph-font: 'Barlow Condensed', sans-serif;
+
+    --nav-background-color: #61A0AF;
+    --nav-link-color: #96C9DC;
+    --nav-hover-link-color: #F06C9B;
+    --nav-hover-background-color: #F5D491;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--F06C9B);
+    background-color: var(--F5D491);
+}
