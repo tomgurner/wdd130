@@ -61,30 +61,11 @@ aside img {
     color: #191ccc;
 }
 
-aside {
-    width: 20em;
-    text-align: center;
-}
 
 aside h2 {
     position: absolute;
-    top: 610px;
+    top: 580px;
     left: 110px;
-}
-
-aside {
-    width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(7, 37, 100, 0.2); /* 1 */
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
 }
 
 footer {
