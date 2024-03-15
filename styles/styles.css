@@ -41,8 +41,8 @@ aside {
     margin: 1em;
     border: 1px solid rgba(7, 37, 100, 0.2); /* 1 */
     padding: 1em;
-    background-color: #eee;
-    color: #333;
+    background-color: #e2baba;
+    color: #990bc4;
     text-align: center;
 }
 
@@ -58,8 +58,8 @@ aside img {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: #8f944d;
-    color: #191ccc;
+    background-color: #e71c37;
+    color: #040538;
 }
 
 
