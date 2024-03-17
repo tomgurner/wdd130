@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+:root {
+    --primary-color: #192325;
+    --secondary-color: #575353;
+    --accent1-color: #092b5f;
+    --accent2-color: #3a3732;
+
+    --heading-font: 'Frijole', sans-serif;
+    --paragraph-font: 'Frijole', sans-serif;
+
+    --nav-background-color: #08303a;
+    --nav-link-color: #345b69;
+    --nav-hover-link-color: #61263b;
+    --nav-hover-background-color: #3a311f;
+}
+
+header img {
+    width: auto;
+    height: 300px;
+
+}
+body {
+    font-family: var(--paragraph-font);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent1-color);
+    border: 10px solid var(--accent1-color);
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+article {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(133, 120, 124, 0.8);
+    padding: 20px;
+    width: 100%;
+    max-width: 1500px;
+    flex-direction: row-reverse;
+}
+
+article img {
+    margin-right: 10px;
+    order: 1;
+    max-width: 500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none; /* Removes line from underneath links */
+}
+
+.sociallinks a img {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
