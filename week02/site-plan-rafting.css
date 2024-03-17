@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 
 body {
     font-family: 'Bralow Condensed', sans-serif;
@@ -12,8 +12,8 @@ body {
     --accent1-color: #F06C9B;
     --accent2-color: #F5D491;
 
-    --heading-font: 'Barlow Condensed', sans-serif;
-    --paragraph-font: 'Barlow Condensed', sans-serif;
+    --heading-font: 'Frijole', sans-serif;
+    --paragraph-font: 'Frijole', sans-serif;
 
     --nav-background-color: #61A0AF;
     --nav-link-color: #96C9DC;
