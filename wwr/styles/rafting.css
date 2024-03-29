@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 
 :root {
-    --primary-color: #1297b2;
-    --secondary-color: #9cbae1;
-    --accent1-color: #2e76db;
-    --accent2-color: #483d2e;
+    --primary-color: #ffffff;
+    --secondary-color: #121e2c;
+    --accent1-color: #a9b2be;
+    --accent2-color: #afbdd3;
 
     --heading-font: 'Frijole', sans-serif;
     --paragraph-font: 'Frijole', sans-serif;
 
     --nav-background-color: #156072;
-    --nav-link-color: #13191b;
+    --nav-link-color: #04ace4;
     --nav-hover-link-color: #61263b;
     --nav-hover-background-color: #3a311f;
 }
 
-<<<<<<< HEAD
 .grid {
     display: flex;
     justify-content: space-around;
@@ -23,10 +22,8 @@
 
 header img {
     width: auto;
-    height: 300px;
-=======
->>>>>>> 98aa1d2edeaba4a1398983a22c099822883b75ca
-
+    height: 250px;
+}
 
 .header-container {
     display: grid;
@@ -102,7 +99,7 @@ body {
 article {
     position: absolute;
     top: 45%;
-    background-color: rgba(124, 75, 90, 0.8);
+    background-color: rgba(63, 70, 182, 0.8);
     padding: 20px;
     width: 60%;
     max-width: 1500px;
@@ -179,6 +176,7 @@ article img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
 }
 
 .image-container img {
@@ -201,6 +199,7 @@ p {
 
 a {
     text-decoration: none; 
+    color: white;
 }
 
 /* Footer */
