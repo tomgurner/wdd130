@@ -40,15 +40,19 @@ label {
 
 input[type="text"],
 input[type="number"],
-textarea,
 select {
     width: 100%;
     padding: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     box-sizing: border-box;
-    border: 2px;
+    border: 12px;
     border-radius: 2px;
 
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
 }
 
 button[type="submit"]{
