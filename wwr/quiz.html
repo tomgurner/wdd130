@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">        
+    <title>HTML and CSS Quiz</title>
+</head>
+<body>
+
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+
+<main>
+    <form>
+        <fieldset>
+            <legend>Basic HTML and CSS Quiz</legend>
+            <!-- Fill in the blank question 1 -->
+            <div class="form-item">
+                <label for="q1">1. What does "HTML" stand for? </label>
+            </div>
+
+            <!-- Fill in the blank question 2 -->
+            <div class="form-item">
+                <label for="q2">2. Give a brief explination as to what CSS does. </label>
+            </div>
+            
+            <!-- Dropdown question 3 -->
+            <div class="form-item">
+                <label for="q3"> 3. Which statement is true of CSS?: </label>
+                <select id="q3" name="q3" required>
+                    <option value=""selected disabled> Choose an option:</option>
+                    <option>"Let's go RED SOX!"</option>
+                    <option>CSS is how to book a hotel room.</option>
+                    <option>CSS pre-dated the top hat.</option>
+                    <option>CSS stands for "Cascade Styling Sheet" </option>
+                    <option>"CHA-LOOP-UH! CHA-LOOP-UH!"</option>
+                </select>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="form-item">
+                <label for="q4">4. What is the bottom margin given this declaration?: 
+                    margin: 10px 5px 15px </label>
+                <input type="number" id="q4" required>
+            </div>
+            
+            <!-- Button -->
+            <button type="submit"> Submit Quiz</button>
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <p>&copy 2024 | HTML and CSS Quiz | Tom Gurner</p>
+</footer>
+</body>
+</html>
