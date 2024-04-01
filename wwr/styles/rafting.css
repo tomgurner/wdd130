@@ -106,7 +106,7 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 12%;
 }
 
@@ -114,6 +114,21 @@ article img {
     margin-left: 10px;
     max-width: 500px;
     order: 2;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+} 
+
+.map {
+    flex: 1;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* History */
@@ -188,6 +203,35 @@ article img {
     margin-top: 5px;
 }
 
+button.submit-button {
+    background-color: lightskyblue;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button.submit-button:hover {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+
+button.submit-button:focus {
+    outline: none;
+}
+
+button.submit-button:active {
+    background-color: blue;
+    box-shadow: 0 0 10px 2px rgba(154, 144, 190, 0.5);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
@@ -200,6 +244,30 @@ p {
 a {
     text-decoration: none; 
     color: white;
+}
+
+.happy-employees {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center
+}
+
+.employee {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+.employee img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 /* Footer */
